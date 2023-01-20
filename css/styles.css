@@ -171,13 +171,12 @@ p {
 }
 
 .tel:hover,
-.tel:focus,
-.tel:active {
+.tel:focus {
   color: var(--blue-color);
 }
 
 .tel:hover .icon,
-.tel:hover .icon {
+.tel:focus .icon {
   fill: var(--blue-color);
 }
 
@@ -479,7 +478,7 @@ p {
 }
 
 .boxes-clients:hover .icon-clients,
-.boxes-clientes:focus .icon-clients {
+.boxes-clients:focus .icon-clients {
   fill: var(--blue-color);
 }
 
@@ -693,7 +692,8 @@ p {
   background-color: var(--color-icons-foter);
 }
 
-.ellipse2:hover {
+.ellipse2:hover,
+.ellipse2:focus {
   background-color: var(--blue-color);
 }
 
