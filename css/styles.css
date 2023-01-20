@@ -183,7 +183,7 @@ p {
 }
 
 .banner-section {
-  background-image: url(/images/banner.jpg);
+  background-image: url(/../goit-markup-hw-04/images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
