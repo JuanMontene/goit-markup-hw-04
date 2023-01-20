@@ -30,6 +30,7 @@ body {
   --color-degrade--grba: rgba(255, 255, 255, 0.6);
   --background--buttons: #f5f4fa;
   --color--header--border: #ececec;
+  --color--icons: #afb1b8;
 }
 
 .list {
@@ -346,11 +347,24 @@ p {
 }
 
 .information-team {
-  padding: 30px 40px;
+  padding: 30px 32px;
   /* padding: 30px 45px; */
 }
 
-.icon-circle {
+.section--team--profession {
+  margin-bottom: 16px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+}
+
+.social-media-list {
+  flex-basis: calc((100% - 30px) / 4);
 }
 
 .section--team--name--person {
@@ -379,6 +393,91 @@ p {
 
 .list-section-team:last-child {
   margin-right: 0;
+}
+
+/* ----SECCION CLIENTES ICONOS SVG--- */
+
+.section-clientes {
+  padding-top: 59px;
+}
+
+.section-clientes-tittle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color--212121--);
+  margin-bottom: 44.02px;
+}
+
+.list-clientes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin-bottom: 57px;
+}
+
+.list-clientes-item {
+  flex-basis: calc((100% - 150px) / 6);
+  border: 1px solid var(--color--icons);
+  border-radius: 4px;
+}
+
+.list-clientes-item:hover,
+.list-clientes-item:focus {
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
+}
+
+.yaco {
+  padding-top: 21.09px;
+  padding-left: 64px;
+  padding-bottom: 13.21px;
+}
+
+.company {
+  padding-top: 17.09px;
+  padding-left: 65px;
+  padding-bottom: 12px;
+}
+
+.company-2 {
+  padding-top: 22.79px;
+  padding-left: 61.66px;
+  padding-bottom: 17.03px;
+}
+
+.foster-peters {
+  padding-top: 22.79px;
+  padding-left: 43px;
+  padding-bottom: 17.59px;
+}
+
+.brand {
+  padding-top: 20.85px;
+  padding-left: 54px;
+  padding-bottom: 14.71px;
+}
+
+.company-3 {
+  padding-top: 20.85px;
+  padding-left: 38px;
+  padding-bottom: 16.22px;
+}
+
+.icon-clients {
+  fill: var(--color--icons);
+}
+
+.icon-clients:hover,
+.icon-clients:focus {
+  fill: var(--blue-color);
+  cursor: pointer;
 }
 
 /* ESTILOS PAGINA PORTAFOLIO */
