@@ -145,8 +145,9 @@ p {
   padding: 32px 0;
 }
 
-.icon-mail {
-  fill: blue;
+.icon {
+  fill: var(--color--gray--757575);
+  margin-right: 10px;
 }
 
 .tel {
@@ -159,8 +160,12 @@ p {
 
 .mail:hover,
 .mail:focus,
-.mail:active {
+.mail:active,
+.icon:hover,
+.icon:focus,
+.icon:active {
   color: var(--blue-color);
+  fill: var(--blue-color);
 }
 
 .tel:hover,
@@ -214,6 +219,16 @@ p {
 
 /* ESTILOS PARRAFOS*/
 
+.boxes-icons-1 {
+  text-align: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background--buttons);
+  padding: 25px 102.34px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .section--texts--tittles {
   font-weight: 700;
   line-height: 1.14;
@@ -243,23 +258,9 @@ p {
   gap: 30px;
 }
 /* ESTULOS A QUE NOS DEDICAMOS*/
-
-.section-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+.service--section {
+  padding-top: 5px;
 }
-.services-section-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
-}
-.services-section-list-item {
-  flex-basis: calc((100% - 46px) / 3);
-}
-
-/* ----------------------------------------- */
 
 .service--section--tittle {
   margin-bottom: 55.05px;
@@ -278,6 +279,43 @@ p {
 
 .list-service-section {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.boxes-images-1 {
+  width: 100%;
+  height: 100%;
+  background: url(/images/image_1.jpg);
+  background-size: cover;
+}
+
+.boxes-images-2 {
+  width: 370px;
+  height: 294px;
+  background: url(/images/image_2.jpg);
+  background-size: cover;
+}
+
+.boxes-images-3 {
+  width: 100%;
+  height: 100%;
+  background: url(/images/image_3.jpg);
+}
+
+.boxes-images-text {
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px 79px;
+}
+
+.boxes-images-text h5 {
+  color: var(--white--color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* ESTILOS A NUESTRO EQUIPO*/
@@ -310,6 +348,9 @@ p {
 .information-team {
   padding: 30px 40px;
   /* padding: 30px 45px; */
+}
+
+.icon-circle {
 }
 
 .section--team--name--person {
